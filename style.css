@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Rajdhani:wght@300;400;500;600;700&family=Smooch+Sans:wght@100..900&display=swap');
 
 body {
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     background-image: url('./bg.jpeg');
+    background-color: #000000;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    height: 100vh;
+    height: 110vh;
     color: #fff;
 }
 
@@ -38,7 +38,6 @@ h1, h2 {
 }
 
 h1 {
-    /* margin-top: 4rem; */
     font-size: calc(8vw + 8vw);
     line-height: 1;
 }
